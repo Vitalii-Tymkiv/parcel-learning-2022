@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .container {
+        width: 700px;
+        height: 400px;
+        border: 2px solid red;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+      }
+
+      .wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+      }
+
+      .img-small {
+        border: 2px solid green;
+        width: 44px;
+        height: 44px;
+        margin: 4px;
+      }
+
+      .img-big {
+        border: 2px solid green;
+        width: 88px;
+        height: 88px;
+        margin: 4px;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="img-small">1</div>
+      <div class="wrapper">
+        <div class="img-small">2</div>
+        <div class="img-small">3</div>
+      </div>
+      <div class="wrapper">
+        <div class="img-big">4</div>
+        <div class="img-small">5</div>
+      </div>
+      <div class="wrapper">
+        <div class="img-small">6</div>
+        <div class="img-small">7</div>
+      </div>
+      <div class="wrapper">
+        <div class="img-small">8</div>
+        <div class="img-small">9</div>
+      </div>
+      <div class="img-small">10</div>
+    </div>
+  </body>
+</html>
